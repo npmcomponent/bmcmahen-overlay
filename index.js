@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter');
-var classes = require('classes');
-var redraw = require('redraw');
-var afterTransition = require('after-transition');
+var Emitter = require('component-emitter');
+var classes = require('component-classes');
+var redraw = require('ianstormtaylor-redraw');
+var afterTransition = require('anthonyshort-after-transition');
 
 /**
  * Expose `Overlay`.
